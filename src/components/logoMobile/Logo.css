@@ -1,0 +1,43 @@
+.logo-mobile{
+    display: none;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 3%;
+    align-items: center;
+    color: #fff;
+    transition: 1s;
+}
+
+.logo-mobile > span{cursor: pointer;display: block;padding: 3px;font-size: 18px;}
+
+.logo-mobile button.loggout {
+    width: 100%;
+    border: 0;
+    outline: none;
+    border-radius: 22px;
+    padding: 3px;
+    text-align: center;
+    background-color: rgb(22,22,22);
+    color: rgb(228, 228, 228);
+    font-size: 12px;
+    transition: 1s;
+    cursor: pointer;
+
+}
+
+
+.logo-mobile img{
+    width: 70px;
+    height: 45px;
+    display: none;
+    transition: 1s;
+}
+
+@media screen and (max-width:1000px){
+    .logo-mobile{display:flex;}
+
+    .logo-mobile img{
+        display: block;
+    }
+}

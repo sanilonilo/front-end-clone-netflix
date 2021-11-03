@@ -1,0 +1,15 @@
+.box-filmes{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2px 0;
+    padding:0 1%;
+    transition: 1s;
+}
+
+@media screen and (max-width:1000px){
+    .box-filmes{
+        justify-content: space-between;
+    }
+}
+

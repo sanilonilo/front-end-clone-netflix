@@ -1,0 +1,91 @@
+.container-auth{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.container-auth .overlay{
+    width: 100%;
+    height:100%;
+    background-color: rgba(0,0,0, 0.4);
+    display: flex;
+    align-items: center;
+    transition: 1s;
+    justify-content: center;
+}
+
+.container-auth .overlay .form {
+    width: 70%;
+    padding: 10px 6%;
+    transition: 1s;
+    background-color: rgba(0,0,0, 0.7);
+    
+}
+
+.container-auth .overlay .form .logo{
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+}
+
+.container-auth .overlay .form .logo img{
+   max-width: 80px;
+}
+
+.container-auth .overlay .form .actions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-auth .overlay .form .actions input{
+    width: 100%;
+    max-width: 290px;
+    margin-bottom: 10px;
+    border: 0;
+    outline: 0;
+    background-color: rgb(22,22,22);
+    color: #fff;
+    padding: 4px 10px;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+.container-auth .overlay .form .actions button{
+    width: 100%;
+    max-width: 290px;
+    margin-bottom: 10px;
+    border: 0;
+    outline: 0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 4px 10px;
+    font-size: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container-auth .overlay .form .toggle{
+    display: flex;
+    justify-content: center;
+    margin:12px 0;
+}
+
+.container-auth .overlay .form .toggle span{
+    cursor: pointer;
+    color: #fff;
+    font-size: 11px;
+}
+
+@media screen and (max-width:1000px){
+    .container-auth{
+        background-image: none;
+    }
+
+    .container-auth .overlay .form {
+        width: 100%;
+            
+    }
+    
+    
+}

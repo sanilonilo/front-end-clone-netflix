@@ -1,0 +1,7 @@
+.container-home{
+    display: flex;
+    transition: 1.5s;
+    height: 100%;
+    flex-wrap: wrap;
+    position: relative;
+}
